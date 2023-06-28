@@ -1,0 +1,20 @@
+.btn-success:hover{
+background-color: red;
+}
+
+.heading{
+    font-size: 25px;
+    font-family: monospace;
+}
+
+@keyframes colour{
+from{box-shadow: 1px 1px 35px red;}
+to{box-shadow: 1px 1px 35px yellow}
+}
+
+canvas{
+    animation-name: colour;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border-radius: 20px;
+}
